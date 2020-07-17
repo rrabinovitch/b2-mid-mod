@@ -19,3 +19,8 @@ hershey = AmusementPark.create!(name: "Hershey Park", admission_price: 50)
 lightning_racer = Ride.create!(name: "Lightning Racer", thrill_rating: 9, amusement_park_id: hershey.id)
 storm_runner = Ride.create!(name: "Storm Runner", thrill_rating: 7, amusement_park_id: hershey.id)
 great_bear = Ride.create!(name: "The Great Bear", thrill_rating: 2, amusement_park_id: hershey.id)
+frog_hopper = Ride.create!(name: "The Frog Hopper", thrill_rating: 1, amusement_park_id: hershey.id)
+
+MechanicRide.create!(mechanic_id: kara.id, ride_id: lightning_racer.id)
+MechanicRide.create!(mechanic_id: kara.id, ride_id: storm_runner.id)
+MechanicRide.create!(mechanic_id: kara.id, ride_id: great_bear.id)

@@ -1,0 +1,5 @@
+<h1>Mechanic: <%= @mechanic.name %></h1>
+<h2>Years of experience: <%= @mechanic.years_of_experience %></h2>
+<h3>Current rides in workload: <%= @mechanic.ride_names.join(", ") %> </h3>
+<br>
+<%= link_to "Add Ride", "/mechanics/#{@mechanic.id}/rides/new" %>

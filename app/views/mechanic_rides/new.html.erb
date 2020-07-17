@@ -1,0 +1,6 @@
+<h1>Add Ride to <%= @mechanic.name %>'s Workload'</h1>
+<%= form_tag "/mechanics/#{@mechanic.id}/rides" do %>
+  <%= label_tag :ride_id %>
+  <%= text_field_tag :ride_id %>
+  <%= submit_tag "Submit" %>
+<% end %>
