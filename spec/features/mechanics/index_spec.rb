@@ -9,8 +9,8 @@ RSpec.describe 'When I visit a mechanics index page' do
 
     expect(page).to have_content("All Mechanics")
     expect(page).to have_content(sam.name)
-    expect(page).to have_content(sam.years_of_experience)
+    expect(page).to have_content("Years of experience: #{sam.years_of_experience}")
     expect(page).to have_content(kara.name)
-    expect(page).to have_content(kara.years_of_experience)
+    expect(page).to have_content("Years of experience: #{kara.years_of_experience}")
   end
 end
