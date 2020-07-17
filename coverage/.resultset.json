@@ -215,7 +215,7 @@
           null
         ]
       },
-      "/Users/ruthie_turing/turing/2module/challenges/b2-mid-mod/app/models/ride.rb": {
+      "/Users/ruthie_turing/turing/2module/challenges/b2-mid-mod/app/models/amusement_park.rb": {
         "lines": [
           1,
           1,
@@ -229,14 +229,69 @@
           null
         ]
       },
-      "/Users/ruthie_turing/turing/2module/challenges/b2-mid-mod/app/models/amusement_park.rb": {
+      "/Users/ruthie_turing/turing/2module/challenges/b2-mid-mod/spec/models/mechanic_ride_spec.rb": {
         "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ruthie_turing/turing/2module/challenges/b2-mid-mod/app/models/mechanic_ride.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/ruthie_turing/turing/2module/challenges/b2-mid-mod/spec/models/mechanic_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ruthie_turing/turing/2module/challenges/b2-mid-mod/app/models/mechanic.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/ruthie_turing/turing/2module/challenges/b2-mid-mod/spec/models/ride_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/ruthie_turing/turing/2module/challenges/b2-mid-mod/app/models/ride.rb": {
+        "lines": [
+          1,
+          1,
           1,
           1,
           null
         ]
       }
     },
-    "timestamp": 1595000436
+    "timestamp": 1595000932
   }
 }
